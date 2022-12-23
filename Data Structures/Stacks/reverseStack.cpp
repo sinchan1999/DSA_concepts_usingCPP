@@ -1,7 +1,8 @@
 // C++ code to reverse a stack using recursion
 
 /*IDEA: The idea of the solution is to hold all values in Function Call Stack until the stack 
-becomes empty.When the stack becomes empty, insert all held items one by one at the bottom of the stack. */
+becomes empty.When the stack becomes empty, insert all held items one by one at the bottom of the stack. 
+*/
 
 /* STEPS:
 Follow the steps mentioned below to implement the idea:
@@ -56,7 +57,7 @@ int main()
 {
 	stack<int> st, st2;
 	// push elements into the stack
-	for (int i = 1; i <= 4; i++) {
+	for (int i = 10; i <= 50; i+=10) {
 		st.push(i);
 	}
 
@@ -80,3 +81,6 @@ int main()
 	}
 	return 0;
 }
+
+/*Time Complexity: O(N2). 
+Auxiliary Space: O(N) use of Stack */
