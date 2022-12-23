@@ -8,5 +8,6 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
-# Local History for Visual Studio Code
+# Local History & vscode file for Visual Studio Code
 .history/
+.vscode
