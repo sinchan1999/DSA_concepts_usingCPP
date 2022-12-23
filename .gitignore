@@ -3,3 +3,10 @@
 
 #ignore all executable files
 *.exe
+.vscode/*
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Local History for Visual Studio Code
+.history/
